@@ -55,3 +55,5 @@ set ignorecase
 set smartcase
 set showmatch
 map <leader><space> :let @/=''<cr> " clear search
+
+colorscheme dessert
