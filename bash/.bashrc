@@ -5,7 +5,6 @@
 
 #Enable options:
 shopt -s cdspell
-shopt -s dirspell
 shopt -s checkwinsize
 shopt -s no_empty_cmd_completion
 shopt -s cmdhist
