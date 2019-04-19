@@ -7,7 +7,7 @@ filetype off
 syntax on
 
 filetype plugin indent on
-let mapleader = "\"
+let mapleader='\'
 set number
 set ruler
 set visualbell
@@ -56,4 +56,4 @@ set smartcase
 set showmatch
 map <leader><space> :let @/=''<cr> " clear search
 
-colorscheme dessert
+colorscheme desert
