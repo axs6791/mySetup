@@ -1,0 +1,15 @@
+[user]
+	name = Alfredo Santana
+	email = aasantana@gmail.com
+	username = aasantana
+[alias]
+	core = vim
+[web]
+	browser = safari
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	b = branch
+	br = branch -r
+	lg = log --oneline --graph --decorate
