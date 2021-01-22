@@ -70,7 +70,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions vi-like)
+plugins=(git zsh-autosuggestions vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,4 +99,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias bashrc="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias brew="-x86_64 brew"
+alias brew="arch -x86_64 brew"
