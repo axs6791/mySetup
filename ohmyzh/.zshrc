@@ -72,6 +72,23 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions vi-mode)
 
+# Agnoster pastel palette — optimized for black terminal background
+AGNOSTER_DIR_BG=111          # periwinkle blue
+AGNOSTER_DIR_FG=235          # near-black text
+AGNOSTER_CONTEXT_BG=237      # near-black (subtle against black terminal)
+AGNOSTER_CONTEXT_FG=250      # soft gray text
+AGNOSTER_GIT_CLEAN_BG=151    # mint green
+AGNOSTER_GIT_CLEAN_FG=235    # near-black text
+AGNOSTER_GIT_DIRTY_BG=222    # warm amber
+AGNOSTER_GIT_DIRTY_FG=235    # near-black text
+AGNOSTER_STATUS_BG=235       # near-black
+AGNOSTER_STATUS_FG=250       # soft gray
+AGNOSTER_STATUS_RETVAL_FG=210 # soft coral (instead of harsh red)
+AGNOSTER_STATUS_ROOT_FG=229  # pale yellow
+AGNOSTER_STATUS_JOB_FG=153   # sky blue
+AGNOSTER_VENV_BG=183         # soft lavender/plum
+AGNOSTER_VENV_FG=235         # near-black text
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -100,3 +117,9 @@ source $ZSH/oh-my-zsh.sh
 alias bashrc="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias brew="arch -x86_64 brew"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
+
+
+source /Users/alfredoasantana/.docker/init-zsh.sh || true # Added by Docker Desktop
+export PATH="$HOME/.local/bin:$PATH"

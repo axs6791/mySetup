@@ -17,3 +17,7 @@ Contains zsh configuration file.
 ## Git
 
 Contains git configuration file.
+
+## Tmux
+
+Contains my current tmux configuration file.
